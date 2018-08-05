@@ -12,3 +12,8 @@ allennlp.egg-info/
 build/
 dist/
 .mypy_cache
+
+# pycharm
+.idea/
+venv/
+verify_log.txt

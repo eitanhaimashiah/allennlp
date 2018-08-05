@@ -1,2 +1,2 @@
 #!/bin/sh
-python -m allennlp.run "$@"
+python3 -m allennlp.run "$@"
