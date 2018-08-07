@@ -3,6 +3,13 @@ import logging
 import os
 import sys
 
+# ------------------------------- UPDATE -------------------------------
+# Ignore silence Cython warnings about changes dtype/ufunc size
+import warnings
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
+# ----------------------------------------------------------------------
+
 if os.environ.get("ALLENNLP_DEBUG"):
     LEVEL = logging.DEBUG
 else:

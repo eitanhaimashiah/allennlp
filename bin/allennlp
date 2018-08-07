@@ -1,2 +1,2 @@
 #!/bin/sh
-python3 -m allennlp.run "$@"
+python -Wignore:"numpy.dtype size changed" -Wignore:"numpy.ufunc size changed" -m allennlp.run "$@"
