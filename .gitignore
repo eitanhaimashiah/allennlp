@@ -19,5 +19,5 @@ venv/
 
 # output
 verify_log.txt
-data/
 inputs.txt
+data/
