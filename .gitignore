@@ -16,4 +16,8 @@ dist/
 # pycharm
 .idea/
 venv/
+
+# output
 verify_log.txt
+data/
+inputs.txt
