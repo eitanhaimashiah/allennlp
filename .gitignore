@@ -21,3 +21,8 @@ venv/
 verify_log.txt
 inputs.txt
 data/
+
+# noam
+venv/
+*.deb
+nvidia.sh
